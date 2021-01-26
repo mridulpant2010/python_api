@@ -1,0 +1,20 @@
+{
+	"log_file_path": "C:\\vmware\\log\\",
+	"logger_name": "itdsd_hadoop_dm_facebook",
+	"log_file_name": "itdsd_hadoop_dm_facebook.log",
+    "driver_path":"C:\\Users\\MridulPant\\Downloads\\geckodriver",
+    "output_file_path": "C:\\vmware\\output\\",
+    "date_range_query":"select max(start_date ),current_date from base.dm_linkedin ",
+    "authorization_base_url":"https://www.facebook.com/dialog/oauth",
+    "token_url":"https://graph.facebook.com/oauth/access_token",
+    "username":"IT_Development@vmware.com",
+    "password":"VMware@4321",
+    "client_id":"1468796716624865",
+    "client_secret":"850ea5777e47e0e70f788a8e96d6efd5",
+    "redirect_uri":"https://www.getpostman.com/oauth2/callback",
+    "output_file_name": "ff_dm_facebook",
+    "output_file_extn": ".csv",
+    "archived_file_path": "C:\\vmware\\archive\\",
+    "token_filepath":"C:\\vmware\\conf\\facebook_token.json"
+}
+
